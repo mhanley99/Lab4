@@ -1,3 +1,7 @@
+// Matthew Hanley
+// Lab 4
+// COSC 2030
+
 #include "VectorDriver.h"
 
 int main() {
