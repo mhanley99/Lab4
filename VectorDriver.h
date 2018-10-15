@@ -1,3 +1,7 @@
+// Matthew Hanley
+// Lab 4
+// COSC 2030
+
 /* File: VectorDriver.cpp
 * Athr: Dimitri Zarzhitsky
 * Date: October 16, 2002
@@ -53,7 +57,11 @@ short compute_sum(const vector<short> &data) {
 	return sum;
 }
 
-// add ten random numbers to the vector
+/*
+add ten random numbers to the vector.
+requires a vector to add the numbers to.
+does not return any value, thus type 'void'.
+*/
 void add_numbers(vector<short> &data)
 {
 	short size = data.size();
@@ -64,7 +72,11 @@ void add_numbers(vector<short> &data)
 	}
 }
 
-// print values in even elements in the vector
+/*
+print values in even elements in the vector.
+requires a vector to print.
+does not return any value, thus type 'void'.
+*/
 void print_even(const vector<short>& data)
 {
 	if (data.empty()) {
@@ -79,7 +91,12 @@ void print_even(const vector<short>& data)
 	}
 }
 
-// return true if value is present in the vector
+/*
+return true if value is present in the vector. 
+requires a vector to search and a value to search for in the vector.
+outputs a boolean value of whether the value is present or not.
+uses iterator.
+*/
 bool is_present(const vector<short> &data, short value)
 {
 	bool cond = false;
